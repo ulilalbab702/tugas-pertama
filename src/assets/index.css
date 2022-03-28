@@ -125,7 +125,7 @@
     left: 522.5px;
     font-family: 'Segoe UI';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 36px;
     line-height: 60px;
     letter-spacing: 1px;
@@ -193,6 +193,7 @@
     border: none;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
   }
   .menu-d{
     position: absolute;
@@ -213,10 +214,10 @@
   }
   .nama-menu2{
     position: absolute;
-    width: 196px;
+    width: 166px;
     height: 91px;
     top: 95px;
-    
+    left: 18px;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 700;
@@ -321,7 +322,7 @@
     position: absolute;
     height: 35px;
     width: 167px;
-    top: 1194px;
+    top: 1240px;
     bottom: 2826px;
     left: 589px;
     border-radius: 5px;
@@ -331,4 +332,576 @@
     background-color: white;
     color: #51AAE1;
     border: 2px solid #51AAE1;
+    cursor: pointer;
+}
+.h{
+  position: absolute;
+  left: 532.5px;
+  top: 1262.81px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.beragam{
+  position: absolute;
+  height: 56.47873306274414px;
+  width: 588.1649780273438px;
+  left: 388.91796875px;
+  top: 1326.814453125px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #3F3D3D;
+  opacity: 0.9;
+}
+.vid{
+  position: absolute;
+  left: 122px;
+  top: 1460px;
+  border-radius: 8px;
+}
+.view-vid{
+  position: absolute;
+  left: 122px;
+  top: 1676px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.6;
+}
+.judul-vid{
+  position: absolute;
+  height: 55.60px;
+  width: 322.07px;
+  left: 122px;
+  top: 1700.66px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+
+}
+.vid2{
+  position: absolute;
+  left: 502px;
+  top: 1460px;
+  border-radius: 8px;
+}
+.view-vid2{
+  position: absolute;
+  left: 502px;
+  top: 1676px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.6;
+}
+.judul-vid2{
+  position: absolute;
+  height: 55.60px;
+  width: 322.07px;
+  left: 502px;
+  top: 1700.66px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+.vid-on{
+  position: absolute;
+  width: 366.65px;
+  height: 416.7px;
+  left: 880.79px;
+  top: 1440.46px;
+  background: #FFF9D9;
+  border-radius: 4px;
+}
+.vid3{
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  border-radius: 8px;
+}
+.view-vid3{
+  position: absolute;
+  left: 18px;
+  top: 235px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  opacity: 0.6;
+}
+.judul-vid3{
+  position: absolute;
+  height: 55.60px;
+  width: 322.07px;
+  left: 18px;
+  top: 260px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+.button-vid{
+  position: absolute;
+  width: 332px;
+  height: 47px;
+  left: 18px;
+  top: 350px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: #000000;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 1;
+}
+.button3 {
+  position: absolute;
+  width: 128.56px;
+  height: 28.33px;
+  left: 1118px;
+  top: 1900px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: #E0EFFE;
+  border: none;
+  color: #648DC0;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.vid-on:hover + .button-vid  {
+  opacity: 1;
+}
+.berita{
+  position: absolute;
+  height: 60px;
+  width: 291px;
+  left: 537.5px;
+  top: 1940px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #020202;
+}
+.beragam-artikel{
+  position: absolute;
+  height: 30px;
+  width: 564px;
+  left: 400.91796875px;
+  top: 2000px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #3F3D3D;
+  opacity: 0.9;
+}
+.menu-berita{
+  position: absolute;
+  width: 366.65px;
+  height: 693.45px;
+  left: 122px;
+  top: 2057px;
+  background: #FFF9D9;
+  border-radius: 4px;
+}
+.artikel{
+  position: absolute;
+  top: 16px;
+  left: 17px;
+}
+.view-artikel{
+  position: absolute;
+  left: 16px;
+  top: 380px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.6;
+}
+.judul-artikel{
+  position: absolute;
+  height: 45px;
+  width: 265px;
+  top: 415px;
+  left: 16px;
+  font-family: 'Segoe UI';
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #231F20;
+}
+.isi-artikel{
+  position: absolute;
+  height: 149px;
+  width: 342.21px;
+  left: 16px;
+  top: 485px;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  opacity: 0.6;
+}
+.baca{
+  position: absolute;
+  width: 328.3px;
+  height: 47px;
+  left: 18px;
+  top: 630px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
+  background: #000000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.menu-berita-d{
+  position: absolute;
+  width: 366.65px;
+  height: 693.45px;
+  left: 490px;
+  top: 2057px;
+  /* background: #FFF9D9; */
+  border-radius: 4px;
+}
+.menu-berita-d2{
+  position: absolute;
+  width: 366.65px;
+  height: 693.45px;
+  left: 858px;
+  top: 2057px;
+  /* background: #FFF9D9; */
+  border-radius: 4px;
+}
+.button4 {
+  position: absolute;
+  width: 128.56px;
+  height: 28.33px;
+  left: 1100px;
+  top: 2790px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color: #E0EFFE;
+  border: none;
+  color: #648DC0;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button4:hover {
+  opacity: 1
+}
+.cabang{
+  position: absolute;
+  height: 60px;
+  width: 452px;
+  left: 457px;
+  top: 2819px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #020202;
+}
+.saat{
+  position: absolute;
+  height: 72px;
+  width: 730px;
+  left: 330px;
+  top: 2883px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3F3D3D;
+  opacity: 0.9;
+}
+.map{
+  position: absolute;
+  width: 1065px;
+  height: 414.56px;
+  left: 159px;
+  top: 2983px;
+}
+.download-app{
+  position: absolute;
+  left: 159px;
+  top: 3440px;
+}
+.footer-container{
+  position: absolute;
+  width: 100%;
+  height: 238px;
+  top: 3900px;
+  /* background-color: #f7f7f7; */
+}
+.about-utc{
+  position: absolute;
+  height: 77px;
+  width: 324px;
+  left: 136px;
+  top: 16px;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #5C5555;
+}
+.download-text{
+  position: absolute;
+  left: 136px;
+  top: 100px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #3C3B3B;
+}
+.icon-ios{
+  position: absolute;
+  left: 136px;
+  top: 130px;
+}
+.icon-droid{
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+.menu-utc{
+  position: absolute;
+  height: 77px;
+  width: 324px;
+  top: 16px;
+  left: 560px;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #3C3B3B;
+}
+.menu-utc-li{
+  position: absolute;
+  top: 30px;
+  left: 520px;
+  list-style: none;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3C3B3B;
+}
+.get-in{
+  position: absolute;
+  top: 16px;
+  left: 730px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #3C3B3B;
+}
+.menu-getin{
+  position: absolute;
+  width: 30px;
+  top: 46px;
+  left: 728px;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #303030;
+}
+.follow{
+  position: absolute;
+  top: 16px;
+  left: 1000px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #3C3B3B;
+}
+.icon-fb{
+  position: absolute;
+  top: 48px;
+  left: 1000px;
+}
+.t-fb{
+  position: absolute;
+  top: 48px;
+  left: 1030px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #303030;
+}
+.icon-ig{
+  position: absolute;
+  top: 88px;
+  left: 1000px;
+}
+.t-ig{
+  position: absolute;
+  top: 88px;
+  left: 1030px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #303030;
+}
+.icon-twit{
+  position: absolute;
+  top: 128px;
+  left: 1000px;
+}
+.t-twit{
+  position: absolute;
+  top: 128px;
+  left: 1030px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #303030;
+}
+.nav-bottom{
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  top: 4130px;
+  background-color: black;
+}
+.copy{
+  position: absolute;
+  top: 10px;
+  left: 136px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+.privacy{
+  position: absolute;
+  top: 10px;
+  left: 980px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+.term{
+  position: absolute;
+  top: 10px;
+  left: 1055px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
+.faq{
+  position: absolute;
+  top: 10px;
+  left: 1180px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFFFFF;
 }

@@ -24,9 +24,7 @@ const MenuComponent = () => {
       <div className="menu-d">
         <img src={menu2} className="menu2" />
         <p className="nama-menu2">
-          Order
-          <br />
-          Tracking
+          Order Tracking
         </p>
       </div>
       <div className="menu-d1">
